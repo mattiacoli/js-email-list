@@ -16,7 +16,7 @@ for (let i = 0; i < 10; i++) {
       const mail = data.response
 
       // add mail in dom using Web API
-      listEl.insertAdjacentHTML("beforeend", `<li>${mail}</li>`)
+      listEl.insertAdjacentHTML("beforeend", `<li class="list-group-item" >${mail}</li>`)
 
 
     })   
